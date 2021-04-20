@@ -1,12 +1,12 @@
-var Tc = -48
-var Tf = (9 / 5) * Tc + 32
-alert(Tf)
 
-var admin
-var name = "Василий"
-admin = "Василий"
-alert(admin)
-
-var b = 1000 + "108"
-alert(b)
-//Значение выражения равно 1000108
+var a = -11
+var b = 3
+if (a > 0 && b > 0) {
+    alert(a - b)
+}
+else if (a < 0 && b < 0) {
+    alert(a * b)
+}
+else {
+    alert(a + b)
+}

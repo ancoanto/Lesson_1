@@ -5,3 +5,9 @@
     display: grid;
     grid-template-columns: repeat (8, 1fr);
 }
+.blackTeil {
+    background-color: black;
+}
+.whiteTeil {
+    background-color: white;
+}

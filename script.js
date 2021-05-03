@@ -1,12 +1,16 @@
-var Tc = -48
-var Tf = (9 / 5) * Tc + 32
-alert(Tf)
+function init() {
+    var isBlack = true;
+    var gameBoard = document.getElementById("gameWrapper")
+    var i = 0
+    for (var i = 0; i < 8; i++) {
+        for (var j = 0; j < 8; j++) {
+            var tile = document.createElement("div")
+            tile.classList.add(isBlack ? "blackTeil" : "whiteTeil")
+            gameBoard.appendChild(tile)
+            isBlack = !isBlack
+        }
+        isBlack = !isBlack
+    }
+}
 
-var admin
-var name = "Василий"
-admin = "Василий"
-alert(admin)
-
-var b = 1000 + "108"
-alert(b)
-//Равно 1000108
+window.onload = init

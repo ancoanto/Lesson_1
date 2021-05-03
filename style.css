@@ -1,13 +1,16 @@
 .gameWrapper {
     border: 1px solid black;
+
     width: 600px;
     height: 600px;
+
     display: grid;
-    grid-template-columns: repeat (8, 1fr);
+    grid-template-columns: repeat(8, 1fr)
 }
-.blackTeil {
+
+.blackTile {
     background-color: black;
 }
-.whiteTeil {
+.whiteTile {
     background-color: white;
 }

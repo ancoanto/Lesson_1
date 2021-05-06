@@ -1,0 +1,10 @@
+.store {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.availableProducts {
+display: flex;
+
+}
